@@ -1,12 +1,13 @@
+require 'json'
+
+package = JSON.parse(File.read(File.join(__dir__, 'package.json')))
 
 Pod::Spec.new do |s|
   s.name         = "RNBrptouchprinter"
   s.version      = "1.0.0"
   s.summary      = "RNBrptouchprinter"
-  s.description  = <<-DESC
-                  RNBrptouchprinter
-                   DESC
-  s.homepage     = ""
+  s.description  = "RNBrptouchprinter"
+  s.homepage     = package['homeoage']
   s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author             = { "author" => "author@domain.cn" }
@@ -20,5 +21,3 @@ Pod::Spec.new do |s|
   #s.dependency "others"
 
 end
-
-  
