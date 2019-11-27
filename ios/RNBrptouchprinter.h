@@ -5,7 +5,8 @@
 #import <React/RCTBridgeModule.h>
 #endif
 
-#import <BRPtouchPrinterKitW/BRPtouchNetworkManager.h>
+
+#import "BRPtouchPrinterKitW.framework/Headers/BRPtouchNetworkManager.h"
 
 @interface RNBrptouchprinter : NSObject <RCTBridgeModule, BRPtouchNetworkDelegate>
 {
@@ -13,3 +14,4 @@
 }
 
 @end
+  
