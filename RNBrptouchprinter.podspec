@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.version      = "1.0.0"
   s.summary      = "RNBrptouchprinter"
   s.description  = "RNBrptouchprinter"
-  s.homepage     = package['homeoage']
+  s.homepage     = package['homepage']
   s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author       = { "author" => "author@domain.cn" }
